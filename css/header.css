@@ -1,0 +1,11 @@
+header .navbar {
+	padding-top: 15px;
+	border:none;
+	background: #038EC0;
+	margin-bottom: 0px;
+}
+nav.navbar ul.nav li a {
+    font-family: Montserrat;
+    color: white;
+    font-size: 20px;
+}

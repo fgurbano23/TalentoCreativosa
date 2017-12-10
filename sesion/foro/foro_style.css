@@ -1,0 +1,59 @@
+/* {
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #fff;
+}
+header, .main ,footer{
+	/*width: 90%;
+	margin: 20px auto;
+	max-width: 1000px;
+	}*/
+/*
+
+
+
+}
+
+}
+
+.main .articles{
+	width: 68.5%;
+	float: left;
+	margin-right: 1.5%
+}
+.main .articles article{
+	background: #fff;
+	padding: 20px;
+	margin-bottom:20px; 
+}
+aside{
+	width: 90%;
+	height: 90%;
+	background: rgb(72, 170, 30);
+	float: left;
+	padding: 20px;
+	box-sizing: border-box;
+	color:#fff;
+}
+*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+footer{
+	margin-top: 15px;
+	background:rgb(22, 105, 173);
+	color: #fff;
+	clear: both;
+	text-align: center;
+}
+.iconic{
+	background: url(intercambio.jpg);
+	height: 300px;
+}
+.capa2{
+	margin-left: 10%;
+}

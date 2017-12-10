@@ -1,0 +1,94 @@
+
+.franja_contenedora {
+	width: 100%;
+	height: 120px;
+	background-color: #004ea1;
+	padding-top:15px;
+	padding-bottom: 15px;
+}
+
+.fondo_titulo {
+	position: relative;
+	top:12%;
+	width: 50%;
+	height: 100px;
+	background-color: #038ec0;
+
+}
+
+.fondo_titulo h2{
+	padding-top: 25px;
+	color:white;
+	font-family: Arial;
+	font-size: 50px;
+	text-align: center;
+
+}
+
+.servicio_atencion_cliente {
+
+	background: #038ec0;
+	color: white;
+	box-shadow: 10px 10px 5px #888888; 
+	margin-left: 25px;
+
+}
+
+
+.servicio_atencion_cliente h3 {
+	text-align: center;
+	color: white;
+	font-size: 30px;
+}
+
+.correo {
+	font-size: 20px;
+}
+
+.marco h2 {
+
+	color:#038ec0;
+	text-align: center;
+}
+
+	 #mensaje{
+	max-height: 100px;
+	min-height: 100px;
+	max-width: 100%;
+	min-width: 100%; 
+}
+
+label {
+	font-size: 15px;
+}
+
+
+
+@media (max-width: 700px){
+
+	.franja_contenedora{
+		height: 90px;
+	}
+
+	.fondo_titulo {
+		width: 85%;
+		height: 80px;
+		left: 5%;
+	}
+
+	.fondo_titulo h2 {
+	padding-top: 0px;
+	font-size: 30px;
+	}
+
+	.correo {
+		font-size: 12.5px;
+	}
+
+#mensaje {
+	max-width: 100%;
+	min-width: 100%;
+}
+
+}
+

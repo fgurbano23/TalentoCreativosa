@@ -1,0 +1,131 @@
+function open_option(opcion){
+
+		switch(opcion){
+
+		case (0) :
+		document.getElementById("tam").style.width="900px";
+		document.getElementById("tam").style.height="550px";
+		document.getElementById("btn-close0").style.display="inline-block";
+		document.getElementById("contenido_mm1").style.height="auto";
+		document.getElementById("boton1").style.display="none";
+
+
+		document.getElementById("tam1").style.display="none";
+		document.getElementById("tam2").style.display="none";
+		document.getElementById("tam3").style.display="none";
+		break;
+
+		case (1) :
+		document.getElementById("tam1").style.width="900px";
+		document.getElementById("tam1").style.height="550px";
+		document.getElementById("btn-close1").style.display="inline-block";
+		document.getElementById("boton2").style.display="none";
+		document.getElementById("contenido_mm2").style.height="auto";
+
+		document.getElementById("tam").style.display="none";
+		document.getElementById("tam2").style.display="none";
+		document.getElementById("tam3").style.display="none";
+		break;
+
+		case (2) :
+		document.getElementById("tam2").style.width="900px";
+		document.getElementById("tam2").style.height="550px";
+		document.getElementById("btn-close2").style.display="inline-block";
+		document.getElementById("boton3").style.display="none";
+		document.getElementById("contenido_mm3").style.height="auto";
+
+		document.getElementById("tam").style.display="none";
+		document.getElementById("tam1").style.display="none";
+		document.getElementById("tam3").style.display="none";
+		break;
+
+		case (3) :
+		document.getElementById("tam3").style.width="900px";
+		document.getElementById("tam3").style.height="550px";
+		document.getElementById("btn-close3").style.display="inline-block";
+		document.getElementById("boton4").style.display="none";
+		document.getElementById("contenido_mm4").style.height="auto";
+
+		document.getElementById("tam").style.display="none";
+		document.getElementById("tam1").style.display="none";
+		document.getElementById("tam2").style.display="none";
+		break;
+
+
+
+		}}
+
+
+	function close_option(opcion) {
+
+		switch(opcion){
+
+		case (0) :
+
+		document.getElementById("tam").style.width="427px";
+		document.getElementById("tam").style.height="auto";
+		document.getElementById("btn-close0").style.display="none";
+		document.getElementById("boton1").style.display="block";
+		document.getElementById("contenido_mm1").style.height="140px";
+
+
+
+		document.getElementById("tam1").style.display="block";
+		document.getElementById("tam2").style.display="block";
+		document.getElementById("tam3").style.display="block";
+		break;
+
+
+		case (1) :
+
+		document.getElementById("tam1").style.width="427px";
+		document.getElementById("tam1").style.height="auto";
+		document.getElementById("btn-close1").style.display="none";
+		document.getElementById("boton2").style.display="block";
+		document.getElementById("contenido_mm2").style.height="140px";
+
+
+
+		document.getElementById("tam").style.display="block";
+		document.getElementById("tam2").style.display="block";
+		document.getElementById("tam3").style.display="block";
+
+
+		break;
+
+
+		case (2) :
+
+		document.getElementById("tam2").style.width="427px";
+		document.getElementById("tam2").style.height="auto";
+		document.getElementById("btn-close2").style.display="none";
+		document.getElementById("boton3").style.display="block";
+		document.getElementById("contenido_mm3").style.height="140px";
+
+
+
+		document.getElementById("tam").style.display="block";
+		document.getElementById("tam1").style.display="block";
+		document.getElementById("tam3").style.display="block";
+		break;
+
+
+		case (3) :
+
+		document.getElementById("tam3").style.width="427px";
+		document.getElementById("tam3").style.height="auto";
+		document.getElementById("btn-close3").style.display="none";
+		document.getElementById("boton4").style.display="block";
+		document.getElementById("contenido_mm4").style.height="140px";
+
+
+
+
+		document.getElementById("tam").style.display="block";
+		document.getElementById("tam1").style.display="block";
+		document.getElementById("tam2").style.display="block";
+		break;
+
+
+	}
+}

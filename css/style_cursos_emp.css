@@ -1,0 +1,74 @@
+.franja_contenedora {
+	width: 100%;
+	height: 120px;
+	background-color: #004ea1;
+	padding-top:15px;
+	padding-bottom: 15px;
+}
+
+.fondo_titulo {
+	position: relative;
+	top:12%;
+	width: 50%;
+	height: 100px;
+	background-color: #038ec0;
+
+}
+
+.fondo_titulo h2{
+	padding-top: 25px;
+	color: #FFF;
+	font-family: Arial;
+	font-size: 50px;
+	text-align: center;
+}
+
+.cursos {
+	margin-top: 10px;
+}
+
+.curso{
+
+	box-shadow: 1px 1px 5px black;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 10px;
+}
+
+.curso1,.curso2,.curso3 {
+	height: 250px;
+	overflow-y: hidden;
+}
+
+.a_cursos a{
+	text-align:right;
+	font-size: 30px;
+	text-decoration: none;
+	color: gray;
+}
+
+.a_cursos span{
+	color: #004ea1;
+}
+
+@media (max-width: 768px) {
+
+	.fondo_titulo h2 
+	{
+		font-size: 30px;
+	}
+
+	.curso h2{ 
+
+		font-size: 20px;
+	 }
+
+
+	.a_cursos a {
+		font-size: 20px;
+	} 
+
+	.curso1 {
+		font-size: 13px;
+	}
+}

@@ -1,0 +1,67 @@
+.c1{
+	background: green;
+	border-radius: 10px;
+	text-align: left;
+	color: white;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.c1 h2{
+	margin-top:1%;
+	margin-bottom: 1%;
+}
+.c1 h2 a{
+	color: white;
+}
+.c1 h2 a:hover{
+	text-decoration: none;
+}
+.c3{
+	text-align: right;
+	margin-bottom: 5px;
+}
+.c5{
+	text-align: left;
+	margin-bottom: 5px;
+}
+.c3 .btn,.c5 .btn, .c6 article form .btn, .c7 .btn{
+	border-radius: 10px;
+	background: green;
+	color: white;
+}
+.c3 .btn:hover,.c5 .btn:hover, .c6 article form .btn:hover, .c7 .btn:hover{
+	background: white;
+	color: green;
+}
+.c4{
+	border:2px solid rgba(0,0,0,0.1);
+	padding: 1%;
+}
+.c4 h2{
+	text-align: center;
+	color: green;
+}
+.c4 p{
+	text-align: justify;
+}
+.c4 a:hover{
+	background: green;
+}
+.c6{
+	border:2px solid rgba(0,0,0,0.1);
+	border-radius: 5%;
+	padding: 2%
+}
+.c6 article h2{
+	text-align: center;
+	color: green;
+}
+.c7 img{
+	border-top-left-radius:5%;
+	border-top-right-radius:5%;
+	
+}
+.c7 .btn{
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}

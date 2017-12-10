@@ -1,0 +1,134 @@
+
+
+.titulo_presentacion,.slogan_presentacion {
+	text-align: center;
+}
+
+.titulo_presentacion {
+	margin-top: 0px;
+	font-weight: 800;
+	font-size: 140px;
+	font-family:Italianno;
+	color:white;
+	margin-bottom: 0px;
+
+}
+
+.slogan_presentacion {
+	margin-top: 0px;
+	font-family:Montserrat;
+	margin-top: 0px;
+	font-weight: 700;
+	font-size: 30px;
+	color: white;
+}
+
+.fondo {
+	background-color: #038EC0;
+	margin-top: 0px;
+}
+
+.titulo_galeria {
+	font-family: Montserrat;
+	font-weight: 700;
+	font-size: 60px;
+	color:#2c3e50;
+	text-align: center;
+
+}
+
+#img1{
+	background: #038ec0;
+	margin-right: 40px;
+	margin-left: 40px;
+	cursor: pointer;
+}
+
+#img2{
+	background: white;
+		margin-right: 40px;
+	margin-left: 40px;
+		cursor: pointer;
+}
+
+#img3{
+	background: #038ec0;
+		margin-right: 40px;
+	margin-left: 40px;
+		cursor: pointer;
+}
+
+#img4{
+	background:white;
+	margin-right: 40px;
+	margin-left: 40px;
+		cursor: pointer;
+}
+
+#img5{
+	background: #038ec0;
+	margin-right: 40px;
+	margin-left: 40px;
+		cursor: pointer;
+}
+
+#img6{
+	background: white;
+	margin-right: 40px;
+	margin-left: 40px;
+		cursor: pointer;
+}
+
+.fondo_cursos{
+	background:#2C3E50;
+}
+.titulo_propuesta_curso{
+	font-family: Montserrat;
+	font-weight: 700;
+	font-size: 25px;
+	color:white;
+	text-align: center;
+}
+
+.contenido_propuesta_curso {
+	text-align: center;
+	color: white;
+	font-size: 15px;
+}
+
+.video_titulo{
+	text-align: center;
+	font-family: Montserrat;
+	font-weight: 700;
+	font-size: 20px;
+	color: #5d2562;
+}
+
+.ventana_modal .close {
+    	color: white;
+		font-size: 60px;
+    	font-weight: bold;
+	}
+
+	.ventana_modal{
+		display: none;
+	}
+
+@media (max-width: 442px){
+	.titulo_galeria{
+		font-size: 30px;
+	}
+
+	.titulo_presentacion{
+		font-size: 30px;
+		font-weight: normal;
+	}
+
+	.slogan_presentacion {
+		font-size: 20px;
+	}
+
+	.container_banner{
+		display: none;
+	}
+}
